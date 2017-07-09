@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker '4.4.0-83-generic' }
+    agent { docker 'maven:4.4.0-83-generic' }
     stages {
         stage('build') {
             steps {
