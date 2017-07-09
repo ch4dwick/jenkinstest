@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker 'maven:4.4.0-83' }
+    agent { docker 'maven:latest' }
     stages {
         stage('build') {
             steps {
